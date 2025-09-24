@@ -66,3 +66,35 @@ styles/
 - Complete Next.js project with code
 - README with setup instructions, approach, and feature list
 - Ready-to-run local environment
+🚀 Running the Project
+1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/mini-music-dashboard.git
+cd mini-music-dashboard
+
+2. Install dependencies
+npm install
+
+3. Start the development server
+npm run dev
+
+
+Opens at http://localhost:3000
+
+Use this mode while developing or testing features.
+
+Supports hot-reloading for instant updates.
+
+4. Start in production mode (optional)
+npm run build    # build the production version
+npm start        # start the server using the production build
+
+
+Use this mode when deploying or testing production behavior.
+
+Requires the .next build folder.
+
+⚠ Note:
+
+Make sure you are in the project folder (where package.json is) to avoid lockfile conflicts.
+
+Development mode (npm run dev) is usually preferred for local testing.
